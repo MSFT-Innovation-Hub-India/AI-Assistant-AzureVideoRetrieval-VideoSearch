@@ -11,6 +11,17 @@ Once ingested, the Video Retrieval Service allows for search based on visual or 
 
 **Note! Before running the application, ensure that key access is enabled on the Azure Blob Storage Account. This program will fail if that is disabled.**
 
+A .env file needs to be created in the root folder, with the configuration elements below:
+
+```
+az-video-indexer-endpoint="<>.cognitiveservices.azure.com"
+az-video-indexer-key=""
+az-video-indexer-index-name="m365copilotvideos"
+az-video-indexer-api-version="2023-05-01-preview"
+az-storage-account-name="<>"
+az-storage-container-name="m365copilotdemos"
+az-storage-account-key=""
+```
 ### Using the Sample Application
 
 #### Creating an index
