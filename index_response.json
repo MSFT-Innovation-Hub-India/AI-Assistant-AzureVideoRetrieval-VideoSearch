@@ -1,0 +1,36 @@
+{
+    "name": "ihubvideosidx",
+    "metadataSchema": {
+        "language": "en",
+        "fields": [
+            {
+                "name": "cameraid",
+                "searchable": False,
+                "filterable": True,
+                "type": "string"
+            },
+            {
+                "name": "timestamp",
+                "searchable": False,
+                "filterable": True,
+                "type": "datetime"
+            }
+        ]
+    },
+    "userData": {},
+    "features": [
+        {
+            "name": "vision",
+            "modelVersion": "2022-04-11",
+            "domain": "generic"
+        },
+        {
+            "name": "speech",
+            "modelVersion": "2023-06-30",
+            "domain": "generic"
+        }
+    ],
+    "eTag": "6ecc37031bfb423db05a2f1bf2924baf",
+    "createdDateTime": "2024-11-28T04: 48: 17.1338470Z",
+    "lastModifiedDateTime": "2024-11-28T04: 48: 17.1338470Z"
+}

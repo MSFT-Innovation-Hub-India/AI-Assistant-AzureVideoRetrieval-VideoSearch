@@ -1,0 +1,14 @@
+{
+    "containerApps.deploymentConfigurations": [
+        {
+            "label": "video-retrieval-sample",
+            "type": "AcrDockerBuildRequest",
+            "dockerfilePath": "Dockerfile",
+            "srcPath": ".",
+            "envPath": ".env",
+            "resourceGroup": "video-search-sample",
+            "containerApp": "video-retrieval-sample",
+            "containerRegistry": "videosearchsample3a2de8"
+        }
+    ]
+}
