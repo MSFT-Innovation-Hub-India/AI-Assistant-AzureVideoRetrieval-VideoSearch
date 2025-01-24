@@ -1,4 +1,4 @@
-# Multimodal video search
+# Multimodal video search - using Azure Video Retrieval API
 
 This sample Application showcases how one could:
 - Create an index in Video Indexer Service and ingest videos from a video library in Azure Blob Store into it.
